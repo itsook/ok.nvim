@@ -18,7 +18,7 @@ Plug 'itsook/ok.nvim', { 'as': 'ok' }
 
 lua:
 
-```
+```lua
 local ok = require('ok')
 ok.setup({ nvim_tree = { contrast = true } })
 ```
