@@ -5,13 +5,13 @@
 packer:
 
 ```lua
-use { 'itsook/ok.nvim', as = 'ok' }
+use { "itsook/ok.nvim", as = "ok" }
 ```
 
 vim plug: 
 
 ```vim
-Plug 'itsook/ok.nvim', { 'as': 'ok' }
+Plug "itsook/ok.nvim", { "as": "ok" }
 ```
 
 ## active theme:
@@ -19,8 +19,7 @@ Plug 'itsook/ok.nvim', { 'as': 'ok' }
 lua:
 
 ```lua
-local ok = require('ok')
-ok.setup({ nvim_tree = { contrast = true } })
+require "ok".setup({ nvim_tree = { contrast = true } })
 ```
 
 vim script:
